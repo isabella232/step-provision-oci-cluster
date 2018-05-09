@@ -1,0 +1,11 @@
+# Copyright 2018, Oracle Corporation and/or its affiliates. All rights reserved.
+
+box: alpine
+
+build:
+  steps:
+
+publish:
+  steps:
+    - internal/publish-step:
+      owner: wercker
